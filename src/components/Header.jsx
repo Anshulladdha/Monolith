@@ -33,7 +33,8 @@ const Header = () => {
             </Dropdown.Item><hr/>
             <Dropdown.Item href="#">Electrical Fire Safety Panels</Dropdown.Item>
           </Dropdown>
-          <Dropdown className='text-black bg-white' label="Products application" 
+          <Dropdown className='text-black bg-white' 
+          label=<a href='/productApplication'>Products application</a> 
           style={{ border: "none" }}>
             <Dropdown.Item href="#">Power Plants</Dropdown.Item><hr/>
             <Dropdown.Item href="#">Building & Construction</Dropdown.Item><hr/>
