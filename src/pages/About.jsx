@@ -18,7 +18,7 @@ const About = () => {
           backgroundSize:'cover'
         }
         
-      } className='w-full h-96 flex items-center justify-center py-20 text-white'>
+      } className='flex items-center justify-center py-20 text-white'>
         <div className='space-y-5 py-10 px-20'>
             
             <h1 className='text-6xl font-bold'>About US</h1>
@@ -71,10 +71,10 @@ const About = () => {
                 </div>
     </div>
 {/* ---------------------------------------------------------------- */}
-    <div className='py-20 px-40 '>
+    <div className='py-20 px-5 '>
     <h1 className='text-4xl text-center font-bold'> Why Monolith?</h1>
             <div class="container  py-10">
-              <div class="space-x-5  flex justify-around ">
+              <div class="space-x-3  flex justify-around ">
                 <div className=' border bg-gray-300 hover:bg-red-500  px-10 rounded-lg'>
                 <div class="py-5">
                 <div className='px-20'><img className='h-20 border bg-white px-1 py-1' src={`${expertise}`}></img>

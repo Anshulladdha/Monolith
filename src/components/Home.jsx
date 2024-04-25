@@ -89,11 +89,11 @@ const Home = () => {
 
 {/* ----------------------------------------------------------------- */}
         {/* {Add To Cart} */}
-        <div className='flex w-full border bg-gray-100 py-20  space-x-5'>
+        <div className='flex w-full border bg-gray-100 py-20 px-3 space-x-1'>
             <div className='card w-full py-10 ' style={{
                 width:"30rem"
             }}>
-                <img src={`${pendent}`} className='border rounded-lg' />
+                <img src={`${pendent}`} className='border  rounded-lg' />
                 <div className=''>
                     <h5 className='text-gray-400'>Safety Equipment</h5>
                     <h2 className=''>Pendent Type Sprinkler</h2>
@@ -106,7 +106,7 @@ const Home = () => {
             <div className='card  w-full py-10' style={{
                 width:"30rem"
             }}>
-                <img src={`${karam}`} className='border h-40 w-full rounded-md' />
+                <img src={`${karam}`} className='border rounded-md' />
                 <div className=''>
                     <h5 className='text-gray-400'>Safety Equipment</h5>
                     <h2 className=''>Karam Safety Belts</h2>
